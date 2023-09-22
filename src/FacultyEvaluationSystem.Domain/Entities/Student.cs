@@ -7,11 +7,8 @@ public class Student
     public Year Year { get; set; }
     public DateTime GraduationYear { get; set; }
 
-    public Guid UserId { get; set; }
-    public User? User { get; set; }
-
-    public Guid DepartmentId { get; set; }
-    public Department? Department { get; set; }
-
-    public IEnumerable<Course>? Courses { get; set; }
+    //navigation properties
+    public User? User { get; private set; }
+    public Department? Department { get; private set; }
+    public ICollection<Course>? Courses { get; set; }
 }

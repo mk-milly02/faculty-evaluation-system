@@ -7,11 +7,7 @@ public class Form
     public DateTime StartDate { get; set; }
     public DateTime EndDate { get; set; }
 
-    public Guid CourseId { get; set; }
-    public Course? Course { get; set; }
-
-    public Guid AcademicYearId { get; set; }
-    public AcademicYear? AcademicYear { get; set; }
-
-    public IEnumerable<Question>? Questions { get; set; }
+    public Course? Course { get; private set; }
+    public AcademicYear? AcademicYear { get; private set; }
+    public ICollection<Question>? Questions { get; set; }
 }
