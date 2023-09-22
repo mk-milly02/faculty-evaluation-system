@@ -7,4 +7,6 @@ public class User : IdentityUser<Guid>
     public string? FirstName { get; set; }
     public string? LastName { get; set; }
     public string? PasswordSalt { get; set; }
+    public DateTime CreatedOn { get; set; }
+    public DateTime UpdatedOn { get; set; }
 }

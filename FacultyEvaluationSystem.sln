@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0180D373-388
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacultyEvaluationSystem.Domain", "src\FacultyEvaluationSystem.Domain\FacultyEvaluationSystem.Domain.csproj", "{A0716443-5876-4C4A-839B-2F0B97195C5E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacultyEvaluationSystem.Infrastructure", "src\FacultyEvaluationSystem.Infrastructure\FacultyEvaluationSystem.Infrastructure.csproj", "{7086504B-29C6-4865-A80B-DB8E566287D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,8 +22,13 @@ Global
 		{A0716443-5876-4C4A-839B-2F0B97195C5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0716443-5876-4C4A-839B-2F0B97195C5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0716443-5876-4C4A-839B-2F0B97195C5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7086504B-29C6-4865-A80B-DB8E566287D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7086504B-29C6-4865-A80B-DB8E566287D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7086504B-29C6-4865-A80B-DB8E566287D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7086504B-29C6-4865-A80B-DB8E566287D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A0716443-5876-4C4A-839B-2F0B97195C5E} = {0180D373-3882-42D6-8628-EAFC3BB9AC3E}
+		{7086504B-29C6-4865-A80B-DB8E566287D3} = {0180D373-3882-42D6-8628-EAFC3BB9AC3E}
 	EndGlobalSection
 EndGlobal
