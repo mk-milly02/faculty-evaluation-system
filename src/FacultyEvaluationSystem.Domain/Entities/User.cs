@@ -9,4 +9,6 @@ public class User : IdentityUser<Guid>
     public string? PasswordSalt { get; set; }
     public DateTime CreatedOn { get; set; }
     public DateTime UpdatedOn { get; set; }
+    public string? RefreshToken { get; set; }
+    public DateTime RefreshTokenExpiry { get; set; }
 }
