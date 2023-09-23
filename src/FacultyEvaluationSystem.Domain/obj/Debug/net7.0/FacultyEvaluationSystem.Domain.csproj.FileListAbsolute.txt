@@ -1,0 +1,12 @@
+D:\Projects\faculty-evaluation-system\src\FacultyEvaluationSystem.Domain\bin\Debug\net7.0\FacultyEvaluationSystem.Domain.deps.json
+D:\Projects\faculty-evaluation-system\src\FacultyEvaluationSystem.Domain\bin\Debug\net7.0\FacultyEvaluationSystem.Domain.dll
+D:\Projects\faculty-evaluation-system\src\FacultyEvaluationSystem.Domain\bin\Debug\net7.0\FacultyEvaluationSystem.Domain.pdb
+D:\Projects\faculty-evaluation-system\src\FacultyEvaluationSystem.Domain\obj\Debug\net7.0\FacultyEvaluationSystem.Domain.csproj.AssemblyReference.cache
+D:\Projects\faculty-evaluation-system\src\FacultyEvaluationSystem.Domain\obj\Debug\net7.0\FacultyEvaluationSystem.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\faculty-evaluation-system\src\FacultyEvaluationSystem.Domain\obj\Debug\net7.0\FacultyEvaluationSystem.Domain.AssemblyInfoInputs.cache
+D:\Projects\faculty-evaluation-system\src\FacultyEvaluationSystem.Domain\obj\Debug\net7.0\FacultyEvaluationSystem.Domain.AssemblyInfo.cs
+D:\Projects\faculty-evaluation-system\src\FacultyEvaluationSystem.Domain\obj\Debug\net7.0\FacultyEvaluationSystem.Domain.csproj.CoreCompileInputs.cache
+D:\Projects\faculty-evaluation-system\src\FacultyEvaluationSystem.Domain\obj\Debug\net7.0\FacultyEvaluationSystem.Domain.dll
+D:\Projects\faculty-evaluation-system\src\FacultyEvaluationSystem.Domain\obj\Debug\net7.0\refint\FacultyEvaluationSystem.Domain.dll
+D:\Projects\faculty-evaluation-system\src\FacultyEvaluationSystem.Domain\obj\Debug\net7.0\FacultyEvaluationSystem.Domain.pdb
+D:\Projects\faculty-evaluation-system\src\FacultyEvaluationSystem.Domain\obj\Debug\net7.0\ref\FacultyEvaluationSystem.Domain.dll

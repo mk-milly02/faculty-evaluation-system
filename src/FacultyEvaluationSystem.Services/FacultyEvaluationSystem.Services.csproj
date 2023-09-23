@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\FacultyEvaluationSystem.Domain\FacultyEvaluationSystem.Domain.csproj" />
+    <ProjectReference Include="..\FacultyEvaluationSystem.Infrastructure\FacultyEvaluationSystem.Infrastructure.csproj" />
   </ItemGroup>
 
   <ItemGroup>

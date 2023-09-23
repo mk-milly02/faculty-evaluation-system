@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "W42hzkQdxzyRlGJeAiClzI1aMVxBTf/1W6hhxx9mGYc=",
+  "Source": "FacultyEvaluationSystem.API",
+  "BasePath": "_content/FacultyEvaluationSystem.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

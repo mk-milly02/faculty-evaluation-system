@@ -1,6 +1,10 @@
 ﻿using System.Text;
 using FacultyEvaluationSystem.Domain;
+using FacultyEvaluationSystem.Infrastructure;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 
@@ -14,6 +18,28 @@ public static class DependencyInjectionExtensions
                 .BindConfiguration(nameof(JwtOptions))
                 .ValidateDataAnnotations()
                 .ValidateOnStart();
+    }
+
+    public static void ConfigureServices(this IServiceCollection services)
+    {
+        services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+        services.AddTransient<ITokenService, TokenService>();
+    }
+
+    public static void AddDatabase(this IServiceCollection services, IConfiguration configuration)
+    {
+        string connectionString = configuration.GetConnectionString("Default")
+                                  ?? throw new NullReferenceException("Connection string not configured.");
+
+        services.AddDbContext<ApplicationDbContext>(options => options.UseNpgsql(connectionString));
+        
+        services.AddIdentity<User, Role>(options =>
+        {
+            options.User.AllowedUserNameCharacters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._@ ";
+            options.User.RequireUniqueEmail = true;
+            options.Password.RequiredLength = 8;
+        })
+        .AddEntityFrameworkStores<ApplicationDbContext>().AddDefaultTokenProviders();
     }
 
     public static void AddJwtAuthentication(this IServiceCollection services, JwtOptions jwtOptions)

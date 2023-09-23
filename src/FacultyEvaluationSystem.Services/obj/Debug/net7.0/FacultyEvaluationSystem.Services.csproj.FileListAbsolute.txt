@@ -1,0 +1,17 @@
+D:\Projects\faculty-evaluation-system\src\FacultyEvaluationSystem.Services\bin\Debug\net7.0\FacultyEvaluationSystem.Services.deps.json
+D:\Projects\faculty-evaluation-system\src\FacultyEvaluationSystem.Services\bin\Debug\net7.0\FacultyEvaluationSystem.Services.dll
+D:\Projects\faculty-evaluation-system\src\FacultyEvaluationSystem.Services\bin\Debug\net7.0\FacultyEvaluationSystem.Services.pdb
+D:\Projects\faculty-evaluation-system\src\FacultyEvaluationSystem.Services\bin\Debug\net7.0\FacultyEvaluationSystem.Domain.dll
+D:\Projects\faculty-evaluation-system\src\FacultyEvaluationSystem.Services\bin\Debug\net7.0\FacultyEvaluationSystem.Infrastructure.dll
+D:\Projects\faculty-evaluation-system\src\FacultyEvaluationSystem.Services\bin\Debug\net7.0\FacultyEvaluationSystem.Domain.pdb
+D:\Projects\faculty-evaluation-system\src\FacultyEvaluationSystem.Services\bin\Debug\net7.0\FacultyEvaluationSystem.Infrastructure.pdb
+D:\Projects\faculty-evaluation-system\src\FacultyEvaluationSystem.Services\obj\Debug\net7.0\FacultyEvaluationSystem.Services.csproj.AssemblyReference.cache
+D:\Projects\faculty-evaluation-system\src\FacultyEvaluationSystem.Services\obj\Debug\net7.0\FacultyEvaluationSystem.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\faculty-evaluation-system\src\FacultyEvaluationSystem.Services\obj\Debug\net7.0\FacultyEvaluationSystem.Services.AssemblyInfoInputs.cache
+D:\Projects\faculty-evaluation-system\src\FacultyEvaluationSystem.Services\obj\Debug\net7.0\FacultyEvaluationSystem.Services.AssemblyInfo.cs
+D:\Projects\faculty-evaluation-system\src\FacultyEvaluationSystem.Services\obj\Debug\net7.0\FacultyEvaluationSystem.Services.csproj.CoreCompileInputs.cache
+D:\Projects\faculty-evaluation-system\src\FacultyEvaluationSystem.Services\obj\Debug\net7.0\FacultyEvaluationSystem.Services.csproj.CopyComplete
+D:\Projects\faculty-evaluation-system\src\FacultyEvaluationSystem.Services\obj\Debug\net7.0\FacultyEvaluationSystem.Services.dll
+D:\Projects\faculty-evaluation-system\src\FacultyEvaluationSystem.Services\obj\Debug\net7.0\refint\FacultyEvaluationSystem.Services.dll
+D:\Projects\faculty-evaluation-system\src\FacultyEvaluationSystem.Services\obj\Debug\net7.0\FacultyEvaluationSystem.Services.pdb
+D:\Projects\faculty-evaluation-system\src\FacultyEvaluationSystem.Services\obj\Debug\net7.0\ref\FacultyEvaluationSystem.Services.dll
