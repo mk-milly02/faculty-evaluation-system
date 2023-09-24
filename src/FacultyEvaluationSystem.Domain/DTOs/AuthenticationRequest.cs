@@ -1,7 +1,13 @@
-﻿namespace FacultyEvaluationSystem.Domain;
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace FacultyEvaluationSystem.Domain;
 
 public class AuthenticationRequest
 {
+    [Required(ErrorMessage = "Email is required")]
+    [EmailAddress(ErrorMessage = "Invalid email address")]
     public string? Email { get; set; }
+
+    [Required(ErrorMessage = "Password is required")]
     public string? Password { get; set; }
 }

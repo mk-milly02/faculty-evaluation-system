@@ -27,6 +27,8 @@ public class ApplicationDbContext : IdentityDbContext<User, Role, Guid>
         builder.Entity<IdentityUserRole<Guid>>().ToTable("UserRoles");
         builder.Entity<IdentityUserClaim<Guid>>().ToTable("Claims");
         builder.Entity<IdentityUserLogin<Guid>>().ToTable("Logins");
+        builder.Entity<IdentityUserToken<Guid>>().ToTable("UserTokens");
+        builder.Entity<IdentityRoleClaim<Guid>>().ToTable("RoleClaims");
 
         builder.ApplyConfiguration(new StudentConfiguration());
         builder.ApplyConfiguration(new LecturerConfiguration());

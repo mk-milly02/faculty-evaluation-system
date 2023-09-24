@@ -2,7 +2,7 @@
 
 public class Lecturer
 {
-    public Guid LectureId { get; set; }
+    public Guid LecturerId { get; set; }
 
     //navigation properties
     public User? User { get; private set; }

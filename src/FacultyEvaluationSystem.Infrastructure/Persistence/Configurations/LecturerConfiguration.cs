@@ -8,7 +8,7 @@ public class LecturerConfiguration : IEntityTypeConfiguration<Lecturer>
 {
     public void Configure(EntityTypeBuilder<Lecturer> builder)
     {
-        builder.HasKey(x => x.LectureId);
-        builder.Property(x => x.LectureId).ValueGeneratedOnAdd();
+        builder.HasKey(x => x.LecturerId);
+        builder.Property(x => x.LecturerId).ValueGeneratedOnAdd();
     }
 }

@@ -11,4 +11,5 @@ public class User : IdentityUser<Guid>
     public DateTime UpdatedOn { get; set; }
     public string? RefreshToken { get; set; }
     public DateTime RefreshTokenExpiry { get; set; }
+    public bool ChangedDefaultPassword { get; set; }
 }
