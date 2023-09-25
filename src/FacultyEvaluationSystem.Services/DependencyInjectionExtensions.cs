@@ -22,6 +22,7 @@ public static class DependencyInjectionExtensions
 
     public static void ConfigureServices(this IServiceCollection services)
     {
+        services.AddAutoMapper(typeof(MappingProfile));
         services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
         services.AddTransient<ITokenService, TokenService>();
     }
