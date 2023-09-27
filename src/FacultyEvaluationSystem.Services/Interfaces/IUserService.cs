@@ -9,4 +9,6 @@ public interface IUserService
     Task<PagedList<UserResponse>> GetAllUsers(QueryParameters parameters);
     Task<bool> UpdateUserAsync(Guid userId, UpdateUserRequest request);
     Task<bool> DeleteUserAsync(Guid userId);
+    Task<bool> ChangePasswordAsync(Guid userId, ChangePasswordRequest request);
+    Task<bool> EmailAlreadyExists(string email);
 }

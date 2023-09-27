@@ -102,4 +102,17 @@ public class UserService : IUserService
             return false;
         }
     }
+
+    public Task<bool> ChangePasswordAsync(Guid userId, ChangePasswordRequest request)
+    {
+        throw new NotImplementedException();
+    }
+
+    public async Task<bool> EmailAlreadyExists(string email)
+    {
+        User? user = await _userManager.FindByEmailAsync(email);
+        return user is not null;
+    }
+
+    //confirm email
 }
