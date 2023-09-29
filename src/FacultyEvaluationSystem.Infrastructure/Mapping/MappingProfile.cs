@@ -7,7 +7,10 @@ public class MappingProfile : Profile
 {
     public MappingProfile()
     {
-        CreateMap<CreateUserRequest, User>().ForMember(x => x.UserName, opts => opts.MapFrom<Username>());
+        CreateMap<CreateUserRequest, User>();
         CreateMap<User, UserResponse>();
+        CreateMap<CreateStudentRequest, User>();
+        CreateMap<CreateStudentRequest, Student>();
+        CreateMap<Student, StudentResponse>();
     }
 }

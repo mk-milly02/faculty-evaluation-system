@@ -7,5 +7,10 @@ public class PagedList<T> where T : class
         Items = source.Skip((page - 1) * size).Take(size).ToList();
     }
 
+    public PagedList()
+    {
+        Items = null;
+    }
+
     public List<T>? Items { get; }
 }
