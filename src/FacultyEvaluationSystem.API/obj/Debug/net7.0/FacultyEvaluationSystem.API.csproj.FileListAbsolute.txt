@@ -60,3 +60,5 @@ D:\Projects\faculty-evaluation-system\src\FacultyEvaluationSystem.API\obj\Debug\
 D:\Projects\faculty-evaluation-system\src\FacultyEvaluationSystem.API\obj\Debug\net7.0\FacultyEvaluationSystem.API.pdb
 D:\Projects\faculty-evaluation-system\src\FacultyEvaluationSystem.API\obj\Debug\net7.0\FacultyEvaluationSystem.API.genruntimeconfig.cache
 D:\Projects\faculty-evaluation-system\src\FacultyEvaluationSystem.API\obj\Debug\net7.0\ref\FacultyEvaluationSystem.API.dll
+D:\Projects\faculty-evaluation-system\src\FacultyEvaluationSystem.API\bin\Debug\net7.0\AutoMapper.dll
+D:\Projects\faculty-evaluation-system\src\FacultyEvaluationSystem.API\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

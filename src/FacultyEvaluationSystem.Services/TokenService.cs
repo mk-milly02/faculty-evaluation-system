@@ -19,7 +19,7 @@ public class TokenService : ITokenService
         _userManager = userManager;
     }
 
-    public async Task<(string token, DateTime expiration)> GenerateAccessTokenAsync(User user)
+    public async Task<string> GenerateAccessTokenAsync(User user)
     {
         byte[] secretKeyBytes = Encoding.UTF8.GetBytes(_jwtOptions.SecretKey!);
         SymmetricSecurityKey symmetricSecurityKey = new(secretKeyBytes);
@@ -42,7 +42,7 @@ public class TokenService : ITokenService
                                              expires: DateTime.UtcNow.AddMinutes(5),
                                              signingCredentials: signingCredentials);
 
-        return ( new JwtSecurityTokenHandler().WriteToken(securityToken), securityToken.ValidTo );
+        return new JwtSecurityTokenHandler().WriteToken(securityToken);
     }
 
     public string GenerateRefreshToken()
@@ -64,6 +64,13 @@ public class TokenService : ITokenService
             IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_jwtOptions.SecretKey!))
         };
 
-        return new JwtSecurityTokenHandler().ValidateToken(token, parameters, out _);
+        ClaimsPrincipal principal = new JwtSecurityTokenHandler().ValidateToken(token, parameters, out SecurityToken securityToken);
+        JwtSecurityToken jwt = (JwtSecurityToken)securityToken;
+        if (jwt is null || jwt.Header.Alg.Equals(SecurityAlgorithms.HmacSha256, StringComparison.Ordinal))
+        {
+            throw new SecurityTokenException("Invalid JWT token");
+        }
+
+        return principal;
     }
 }

@@ -5,7 +5,7 @@ namespace FacultyEvaluationSystem.Services;
 
 public interface ITokenService
 {
-    Task<(string token, DateTime expiration)> GenerateAccessTokenAsync(User user);
+    Task<string> GenerateAccessTokenAsync(User user);
     string GenerateRefreshToken();
     ClaimsPrincipal GetPrincipalFromExpiredToken(string token);
 }
