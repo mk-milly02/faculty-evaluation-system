@@ -13,13 +13,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacultyEvaluationSystem.Ser
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacultyEvaluationSystem.API", "src\FacultyEvaluationSystem.API\FacultyEvaluationSystem.API.csproj", "{B5E989DE-3513-4051-A827-835CAA0AC569}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{1ACD7FC7-87E5-4504-84D0-C26BDF6EEE3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacultyEvaluationSystem.IntegrationTests", "tests\FacultyEvaluationSystem.IntegrationTests\FacultyEvaluationSystem.IntegrationTests.csproj", "{BAE930DB-B775-468A-A786-EDD0E146C8E2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{A0716443-5876-4C4A-839B-2F0B97195C5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -38,11 +39,19 @@ Global
 		{B5E989DE-3513-4051-A827-835CAA0AC569}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5E989DE-3513-4051-A827-835CAA0AC569}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5E989DE-3513-4051-A827-835CAA0AC569}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAE930DB-B775-468A-A786-EDD0E146C8E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAE930DB-B775-468A-A786-EDD0E146C8E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAE930DB-B775-468A-A786-EDD0E146C8E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAE930DB-B775-468A-A786-EDD0E146C8E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A0716443-5876-4C4A-839B-2F0B97195C5E} = {0180D373-3882-42D6-8628-EAFC3BB9AC3E}
 		{7086504B-29C6-4865-A80B-DB8E566287D3} = {0180D373-3882-42D6-8628-EAFC3BB9AC3E}
 		{10B75CF1-8FCB-4649-AFFA-014BE9D17580} = {0180D373-3882-42D6-8628-EAFC3BB9AC3E}
 		{B5E989DE-3513-4051-A827-835CAA0AC569} = {0180D373-3882-42D6-8628-EAFC3BB9AC3E}
+		{BAE930DB-B775-468A-A786-EDD0E146C8E2} = {1ACD7FC7-87E5-4504-84D0-C26BDF6EEE3D}
 	EndGlobalSection
 EndGlobal
